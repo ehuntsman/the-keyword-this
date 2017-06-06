@@ -27,7 +27,7 @@
       username: "kidagara",
       email: "kidagara@gmail.com",
       getUsername: function(){
-        this.username;
+        return this.username;
       }
     }
 
@@ -45,6 +45,7 @@ function Car(make, model, year){
     this.move = 0;
     this.moveCar = function(){
       this.move += 10;
+      return this.move;
     }
   //Function Invocations Here
 }
